@@ -1,45 +1,45 @@
 @font-face {
     font-family: "ProximaNovaRegular";
-    src: url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot");
-    src: url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/ProximaNovaRegular/ProximaNovaRegular.woff") format("woff"),
-    url("../fonts/ProximaNovaRegular/ProximaNovaRegular.ttf") format("truetype");
+    src: url("fonts/ProximaNovaRegular/ProximaNovaRegular.eot");
+    src: url("fonts/ProximaNovaRegular/ProximaNovaRegular.eot?#iefix")format("embedded-opentype"),
+    url("fonts/ProximaNovaRegular/ProximaNovaRegular.woff") format("woff"),
+    url("fonts/ProximaNovaRegular/ProximaNovaRegular.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "ProximaNovaBold";
-    src: url("../fonts/ProximaNovaBold/ProximaNovaBold.eot");
-    src: url("../fonts/ProximaNovaBold/ProximaNovaBold.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/ProximaNovaBold/ProximaNovaBold.woff") format("woff"),
-    url("../fonts/ProximaNovaBold/ProximaNovaBold.ttf") format("truetype");
+    src: url("fonts/ProximaNovaBold/ProximaNovaBold.eot");
+    src: url("fonts/ProximaNovaBold/ProximaNovaBold.eot?#iefix")format("embedded-opentype"),
+    url("fonts/ProximaNovaBold/ProximaNovaBold.woff") format("woff"),
+    url("fonts/ProximaNovaBold/ProximaNovaBold.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "ProximaNovaBlack";
-    src: url("../fonts/ProximaNovaBlack/ProximaNovaBlack.eot");
-    src: url("../fonts/ProximaNovaBlack/ProximaNovaBlack.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/ProximaNovaBlack/ProximaNovaBlack.woff") format("woff"),
-    url("../fonts/ProximaNovaBlack/ProximaNovaBlack.ttf") format("truetype");
+    src: url("fonts/ProximaNovaBlack/ProximaNovaBlack.eot");
+    src: url("fonts/ProximaNovaBlack/ProximaNovaBlack.eot?#iefix")format("embedded-opentype"),
+    url("fonts/ProximaNovaBlack/ProximaNovaBlack.woff") format("woff"),
+    url("fonts/ProximaNovaBlack/ProximaNovaBlack.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'AcromMedium';
-    src: url('../fonts/AcromMedium/Acrom Medium.eot');
-    src: local('☺'), url('../fonts/AcromMedium/Acrom Medium.woff') format('woff'), url('../fonts/AcromMedium/Acrom Medium.ttf') format('truetype'), url('../fonts/AcromMedium/Acrom Medium.svg') format('svg');
+    src: url('fonts/AcromMedium/Acrom Medium.eot');
+    src: local('☺'), url('fonts/AcromMedium/Acrom Medium.woff') format('woff'), url('fonts/AcromMedium/Acrom Medium.ttf') format('truetype'), url('fonts/AcromMedium/Acrom Medium.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'TT-Moons-Thin-Italic-DEMO';
-    src: url('../fonts/TT-Moons-Thin-Italic-DEMO/TT-Moons-Thin-Italic-DEMO.eot');
-    src: local('☺'), url('../fonts/TT-Moons-Thin-Italic-DEMO/TT-Moons-Thin-Italic-DEMO.woff') format('woff'), url('../fonts/TT-Moons-Thin-Italic-DEMO/TT-Moons-Thin-Italic-DEMO.ttf') format('truetype'), url('../fonts/TT-Moons-Thin-Italic-DEMO/TT-Moons-Thin-Italic-DEMO.svg') format('svg');
+    src: url('fonts/TT-Moons-Thin-Italic-DEMO/TT-Moons-Thin-Italic-DEMO.eot');
+    src: local('☺'), url('fonts/TT-Moons-Thin-Italic-DEMO/TT-Moons-Thin-Italic-DEMO.woff') format('woff'), url('fonts/TT-Moons-Thin-Italic-DEMO/TT-Moons-Thin-Italic-DEMO.ttf') format('truetype'), url('fonts/TT-Moons-Thin-Italic-DEMO/TT-Moons-Thin-Italic-DEMO.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -59,6 +59,7 @@ button:focus {
 .anim-pro {
     transform: translate3d(0px,60px,0px);
     opacity: 0;
+
 }
 
 /* COMMON STYLES */
@@ -89,7 +90,7 @@ nav {
     width: 61px;
     height: 52px;
     display: block;
-    background: url('../img/logo.png') no-repeat center;
+    background: url('img/logo.png') no-repeat center;
     background-size: contain;
     float: left;
     margin: 0px 0 0 0;
@@ -196,7 +197,7 @@ nav > button {
     border: none;
     padding: 0px 19px;
     text-transform: uppercase;
-    background: url('../img/arrow-lang.png') no-repeat center right;
+    background: url('img/arrow-lang.png') no-repeat center right;
     cursor: pointer;
     position: relative;
 }
@@ -330,7 +331,7 @@ nav > button div a:hover {
     left: 50%;
     margin-left: -75px;
     z-index: 999;
-    background: url('../img/arrow-scroll.png') no-repeat center bottom;
+    background: url('img/arrow-scroll.png') no-repeat center bottom;
 }
 
 .swiper-pagination {
@@ -341,7 +342,7 @@ nav > button div a:hover {
     text-align: center;
     margin-top: -5%;
     z-index: 999;
-    opacity: 0;
+    opacity: 1;
 }
 
 .back-pag {
@@ -359,7 +360,7 @@ nav > button div a:hover {
 }
 
 .swiper-pagination-bullet-active {
-    background: url('../img/pag-active.png') no-repeat center;
+    background: url('img/pag-active.png') no-repeat center;
     background-size: contain;
 }
 
@@ -385,7 +386,7 @@ nav > button div a:hover {
     left: -2px;
     margin: 117px 0 0 17px;
     transform: rotate(-45deg);
-    background: url('../img/chat.png') no-repeat;
+    background: url('img/chat.png') no-repeat;
     transition: all 0.1s ease-out;
 }
 
@@ -404,7 +405,7 @@ nav > button div a:hover {
 }
 
 .info-hotel {
-    background: url('../images/back-hotel.jpg') no-repeat center;
+    background: url('img/back-hotel.jpg') no-repeat center;
     background-size: cover;
 }
 
@@ -1070,7 +1071,7 @@ path#middle {
     height: 100%;
     position: relative;
     float: right;
-    background: url('../images/map-test.jpg') no-repeat center;
+    background: url('img/map-test.jpg') no-repeat center;
     background-size: cover;
     opacity: 0;
 }
@@ -1163,7 +1164,7 @@ h6 {
 .logo-inside {
     width: 61px;
     height: 52px;
-    background: url('../img/logo.png') no-repeat center;
+    background: url('img/logo.png') no-repeat center;
     float: left;
     margin: 0 0 0 0;
     transition: all 0.4s ease-in;
@@ -1372,13 +1373,13 @@ h6 {
 
 .arrow1-ipad {
     float: right;
-    background: url('../img/arrow1-ipad.png') no-repeat center;
+    background: url('img/arrow1-ipad.png') no-repeat center;
     background-size: contain;
 }
 
 .arrow2-ipad {
     float: left;
-    background: url('../img/arrow2-ipad.png') no-repeat center;
+    background: url('img/arrow2-ipad.png') no-repeat center;
     background-size: contain;
 }
 
@@ -1754,7 +1755,7 @@ h6 {
     position: absolute;
     left: -80px;
     top: 89px;
-    background: url('../img/arrow-inset.png') no-repeat center;
+    background: url('img/arrow-inset.png') no-repeat center;
     background-size: contain;
 }
 
@@ -1870,12 +1871,6 @@ h6 {
 }
 
 /* RESPONSIVE */
-
-@media only screen and (min-width: 601px) {
-    .galereya-cell, .galereya-cell-img {
-        width: 283px !important;
-    }
-}
 
 @media screen and (min-width: 1920px) {  
     .inset-md:last-child {
@@ -2288,9 +2283,21 @@ and (max-height: 900px) {
     }
 }
 
+@media only screen and (min-width: 601px) {
+    .galereya-cell, .galereya-cell-img {
+        width: 283px !important;
+    }
+}
+
 /*
 
 Responsive: 1920x1080, 1600x1200, 1600x900, 1440x900, 1366x768,
             1280x1024, 1280x768, 1024x768, 1024x560;
 
 */
+
+/* 
+
+--> slider main, pagination, routerjs, responsive small notebooks, buttons animate, code old blocks
+
+ */

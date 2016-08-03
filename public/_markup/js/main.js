@@ -14,18 +14,18 @@ $(document).ready(function(){
   }
 
   main
-    .to($('.line-main1'), 1, {width: '100%', delay: 0.1})
-    .to($('.line-main3'), 1, {height: '100%'})
-    .to($('.line-main2'), 1, {width: '100%'})
-    .to($('.line-main4'), 1, {height: '100%'})
-    .to($('.loader-main'), 1, {autoAlpha: 1})
-    .to($('.zip-loader img'), 1, {autoAlpha: 1})
-    .to($('.bpd22, .bpd44'), 1, {width: '82%'})
-    .to($('.hbpd66, .hbpd55'), 1, {height: '100%'})
-    .to($('.bpd11, .bpd33'), 1, {width: '12%'})
-    .add('end')
-    .to($('.bpd22, .bpd44'), 1, {width: '12%'}, 'end')
-    .to($('.bpd11, .bpd33'), 1, {width: '82%'}, 'end')
+    // .to($('.line-main1'), 0.7, {width: '100%', delay: 0.1})
+    // .to($('.line-main3'), 0.7, {height: '100%'})
+    // .to($('.line-main2'), 0.7, {width: '100%'})
+    // .to($('.line-main4'), 0.7, {height: '100%'})
+    // .to($('.loader-main'), 0.7, {autoAlpha: 1})
+    // .to($('.zip-loader img'), 1, {autoAlpha: 1})
+    // .to($('.bpd22, .bpd44'), 1, {width: '82%'})
+    // .to($('.hbpd66, .hbpd55'), 1, {height: '100%'})
+    // .to($('.bpd11, .bpd33'), 1, {width: '12%'})
+    // .add('end')
+    // .to($('.bpd22, .bpd44'), 1, {width: '12%'}, 'end')
+    // .to($('.bpd11, .bpd33'), 1, {width: '82%'}, 'end')
     .to($('#content-in'), 0.5, {delay: 0.1, autoAlpha: 1})
     .to($('#mask-main'), 0.1, {borderWidth: sw})
     .to($('.loader-main, .line-main'), 1, {autoAlpha: 0, display: 'none'})
@@ -58,8 +58,8 @@ $(document).ready(function(){
     });
 
     (function($) {
-        var i1 = $('.info-slide').offset().top;
-        var i2 = $('.info-slide').offset().left;
+        var i1 = $('.info-slide').offsetTop;
+        var i2 = $('.info-slide').offsetLeft;
         var a1 = $('.swiper-pagination').width();
         $('.swiper-pagination').offset({top: (i1 + 20), left: (i2 - 25)});
     }(jQuery));
@@ -169,4 +169,5 @@ $(document).ready(function(){
           TweenMax.set($('.inset-md-num'), {opacity: 0, y: 30, delay: 1});
         }
     });
+
 });

@@ -2,7 +2,7 @@
 	<?php include 'header.php' ?>
 <!-- CONNECTION HEADER -->
 				<div class="slider-main section" id="section0">
-					<div class="swiper-container">
+					<div class="swiper-container1">
 						<div class="swiper-pagination"></div>
 						<div class="swiper-wrapper">
 							<div class="swiper-slide" style="background-image: url('images/back-slider.jpg');">
